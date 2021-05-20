@@ -1,5 +1,6 @@
 let readlineSync=require("readline-sync");
 let dimension=readlineSync.questionInt("Ingrese dimension:");
+
 let arregloNum= new Array(dimension);
 
 cargarArreglos(arregloNum, dimension);
