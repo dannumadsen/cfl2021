@@ -1,0 +1,95 @@
+.container-encabezado{
+    background-color: lightgrey;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.menu1{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 20px;
+}
+.logo{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 20px;
+}
+.menu2{
+    background-color: brown;
+    width: 250px;
+    height: 20px;
+}
+
+.container-modulo1{
+    width: 100%;
+    height: 300px;
+    background-color: lavender;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.izquierda{
+    background-color: grey;
+    width: 30%;
+    height: 200px;
+    color:ivory;
+}
+
+.centro{
+    background-color: lightseagreen;
+    width: 30%;
+    height: 200px;
+    color:ivory;
+}
+
+.derecha{
+    background-color: orangered;
+    width: 30%;
+    height: 200px;
+    color:ivory;
+}
+
+.container-modulo2{
+    width: 100%;
+    height: 300px;
+    background-color: lavender;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.izquierda2{
+    background-color: green;
+    width: 60%;
+    height: 200px;
+}
+
+.derecha2{
+    background-color: brown;
+    width: 30%;
+    height: 200px;
+    color:ivory;
+}
+
+.container-pie{
+    background-color: cyan;
+    width: 100%;
+    height: 70px;
+    color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.elemento-pie{
+    background-color: blue;
+    width: 150px;
+    height: 30px;
+    margin: 2%;
+}
