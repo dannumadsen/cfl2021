@@ -25,10 +25,3 @@ function cuentaRegre(i) {
         }
     }, 1000);
 }
-
-
-
-
-
-
-  

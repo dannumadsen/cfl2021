@@ -1,20 +1,16 @@
 "use strict";
 
 let btn = document.getElementById('button');
-btn.addEventListener("click", ActualizarLista);
 
-function ActualizarLista(){
-    //Captura la tarea
-    let nodoInput = document.getElementById('nodoInput');
-    //Guardo en tarea lo que el usuario ingresa en el input
-    let tarea = nodoInput.value;
-    //creo el elemento lista
-    let tareas=document.createElement('li');
-    tareas.innerHTML = tarea;
-    let listaTareas = document.getElementById('nuevaTarea');
-    //Entro en un ciclo cada vez que se agrega una nueva tarea
-    for(let i = 0; i < tarea.length;i++){
-        listaTareas.appendChild (tareas);
-    }
+function showDiv() { 
+    let div = document.getElementById('div-elemento');
+    div.classList.toggle('div-estilo');
+} 
+
+
+
+for(let i = 0; i < btn.clientHeight; i++){
+    btn.addEventListener("click", showDiv);
+    let sibling = this.nextElementSibling;
+    sibling.classList.toggle('div-estilo')
 }
-
