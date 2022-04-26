@@ -1,0 +1,28 @@
+.contenedor{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #f1e7b6;
+    width: 100%;
+    height: 300px;
+}
+
+.div-1{
+    background-color: #fe346e;
+    width: 200px;
+    height: 200px;
+}
+
+.div-2{
+    background-color: #400082;
+    width: 150px;
+    height: 150px;
+}
+
+.div-3{
+    background-color: #00bdaa;
+    width: 200px;
+    height: 200px;
+}
