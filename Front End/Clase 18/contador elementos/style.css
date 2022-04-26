@@ -1,0 +1,21 @@
+.button{
+    background-color: blueviolet;
+    color:burlywood;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2em 4rem;
+    padding: 5%;
+
+}
+
+.button:hover{
+    background-color: chartreuse;
+    color: darkblue;
+}
+
+.button:active{
+    background-color: darkgoldenrod;
+    color: darkgreen;
+    box-shadow: 2px 2px 5px #999
+}
